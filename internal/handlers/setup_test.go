@@ -10,13 +10,13 @@ import (
 	"path/filepath"
 	"time"
 
+	"github.com/Orololuwa/bookings/internal/config"
+	"github.com/Orololuwa/bookings/internal/models"
+	"github.com/Orololuwa/bookings/internal/render"
 	"github.com/alexedwards/scs/v2"
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
 	"github.com/justinas/nosurf"
-	"github.com/orololuwa/bookings-app/internal/config"
-	"github.com/orololuwa/bookings-app/internal/models"
-	"github.com/orololuwa/bookings-app/internal/render"
 )
 
 var app config.AppConfig

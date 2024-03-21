@@ -8,13 +8,13 @@ import (
 	"os"
 	"time"
 
+	"github.com/Orololuwa/bookings/internal/config"
+	"github.com/Orololuwa/bookings/internal/driver"
+	"github.com/Orololuwa/bookings/internal/handlers"
+	"github.com/Orololuwa/bookings/internal/helpers"
+	"github.com/Orololuwa/bookings/internal/models"
+	"github.com/Orololuwa/bookings/internal/render"
 	"github.com/alexedwards/scs/v2"
-	"github.com/orololuwa/bookings-app/internal/config"
-	"github.com/orololuwa/bookings-app/internal/driver"
-	"github.com/orololuwa/bookings-app/internal/handlers"
-	"github.com/orololuwa/bookings-app/internal/helpers"
-	"github.com/orololuwa/bookings-app/internal/models"
-	"github.com/orololuwa/bookings-app/internal/render"
 )
 
 const portNumber = ":8080"

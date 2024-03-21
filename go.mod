@@ -1,4 +1,4 @@
-module github.com/orololuwa/bookings-app
+module github.com/Orololuwa/bookings
 
 go 1.15
 

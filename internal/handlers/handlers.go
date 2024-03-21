@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/orololuwa/bookings-app/internal/config"
-	"github.com/orololuwa/bookings-app/internal/driver"
-	"github.com/orololuwa/bookings-app/internal/forms"
-	"github.com/orololuwa/bookings-app/internal/helpers"
-	"github.com/orololuwa/bookings-app/internal/models"
-	"github.com/orololuwa/bookings-app/internal/render"
-	"github.com/orololuwa/bookings-app/internal/repository"
-	dbrepo "github.com/orololuwa/bookings-app/internal/repository/db-repo"
+	"github.com/Orololuwa/bookings/internal/config"
+	"github.com/Orololuwa/bookings/internal/driver"
+	"github.com/Orololuwa/bookings/internal/forms"
+	"github.com/Orololuwa/bookings/internal/helpers"
+	"github.com/Orololuwa/bookings/internal/models"
+	"github.com/Orololuwa/bookings/internal/render"
+	"github.com/Orololuwa/bookings/internal/repository"
+	dbrepo "github.com/Orololuwa/bookings/internal/repository/db-repo"
 )
 
 // Repo the repository used by the handlers

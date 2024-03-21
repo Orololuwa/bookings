@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"runtime/debug"
 
-	"github.com/orololuwa/bookings-app/internal/config"
+	"github.com/Orololuwa/bookings/internal/config"
 )
 
 var app *config.AppConfig

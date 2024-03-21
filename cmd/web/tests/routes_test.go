@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/Orololuwa/bookings/internal/config"
 	"github.com/go-chi/chi"
-	"github.com/orololuwa/bookings-app/internal/config"
 )
 
 func TestRoutes(t *testing.T) {

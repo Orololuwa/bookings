@@ -3,8 +3,8 @@ package dbrepo
 import (
 	"database/sql"
 
-	"github.com/orololuwa/bookings-app/internal/config"
-	"github.com/orololuwa/bookings-app/internal/repository"
+	"github.com/Orololuwa/bookings/internal/config"
+	"github.com/Orololuwa/bookings/internal/repository"
 )
 
 type postgresDBRepo struct {

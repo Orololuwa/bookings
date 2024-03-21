@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"path/filepath"
 
+	"github.com/Orololuwa/bookings/internal/config"
+	"github.com/Orololuwa/bookings/internal/models"
 	"github.com/justinas/nosurf"
-	"github.com/orololuwa/bookings-app/internal/config"
-	"github.com/orololuwa/bookings-app/internal/models"
 )
 
 var functions = template.FuncMap{}
